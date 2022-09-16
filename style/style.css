@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    font-family: "Roboto";
+}
+
+.header {
+    display: flex;
+    max-width: 1230px;
+    margin: 56px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a {
+    color: #56593D;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu li:first-child:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("/icon/arrow-down.svg");
+    margin-left: 2px;
+}
+
+.header__logo {
+    position: absolute;
+    max-width: 90px;
+    left: 46.84%;
+    right: 46.84%;
+}
+
+.menu__item {
+    font-size: 16px;
+    line-height: 25px;
+    color: #56593D;
+    margin-right: 39px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.header__item {
+    margin-right: 20px;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.govno:last-child:after {
+    content: "0";
+    display: inline-block;
+    width: 10px;
+    height: 26px;
+    color: #56593D;
+    margin-left: -10px;
+    background: #E5E5E5;
+}
+
+.banner__hero {
+    background: url("/img/background1.png") 50% no-repeat,#FFF;
+    height: 732px;
+    max-width: 1360px;
+    margin: 0 auto 110px;
+    padding: 80px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner__button {
+    width: 154px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 25px 17px;
+    background: #56593D;
+    color: white;
+}
+
+.banner__button:hover {
+    opacity: 0.9;
+}
+
+.banner__button:active {
+    transform: translateY(5px);
+}
+
+.banner__title {
+    margin-bottom: 25px;
+    font-size: 45px;
+    line-height: 60px;
+    color: #56593D;
+}
+
+.banner__text {
+    font-size: 18px;
+    line-height: 22px;
+    color: #56593D;
+    letter-spacing: 1.8px;
+}
+
+.main__text {
+    display: flex;
+    margin: 0 auto 25px;
+    max-width: 1194px;
+    font-size: 57px;
+    line-height: 81px;
+    text-align: center;
+    color: #56593D;
+}
+
+.link__text {
+    display: flex;
+    color: #56593D;
+    max-width: 297px;
+    margin: 0 auto 90px;
+}
+
+.link {
+    /*text-decoration: underline;*/
+    border-bottom: 2px solid #56593D;
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 69px;
+    justify-content: space-between;
+}
+
+.link:last-child {
+    margin-right: 0;
+}
+
+.link__text li:after {
+    content: '';
+    width: 14px;
+    height: 11px;
+    background-image: url("/icon/arrow.svg");
+    display: inline-block;
+    margin-left: 4px;
+}
